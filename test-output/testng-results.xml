@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-08T20:02:35 IST" name="Default suite" finished-at="2022-07-08T20:03:42 IST" duration-ms="66492">
+    <groups>
+    </groups>
+    <test started-at="2022-07-08T20:02:35 IST" name="Default test" finished-at="2022-07-08T20:03:42 IST" duration-ms="66492">
+      <class name="test.TestListenres">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestListenres@245b4bdc]" started-at="2022-07-08T20:02:36 IST" name="openBrowser" finished-at="2022-07-08T20:03:22 IST" duration-ms="46812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testOne()[pri:0, instance:test.TestListenres@245b4bdc]" started-at="2022-07-08T20:03:22 IST" name="testOne" finished-at="2022-07-08T20:03:23 IST" duration-ms="1120" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method test.TestListenres.testOne() didn't finish within the time-out 1000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method test.TestListenres.testOne() didn't finish within the time-out 1000
+at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+at app//test.TestListenres.testOne(TestListenres.java:20)
+at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:44)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:72)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:10)
+at java.base@17.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.TestListenres@245b4bdc]" started-at="2022-07-08T20:03:25 IST" name="openBrowser" finished-at="2022-07-08T20:03:40 IST" duration-ms="15148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testTwo()[pri:0, instance:test.TestListenres@245b4bdc]" started-at="2022-07-08T20:03:40 IST" name="testTwo" finished-at="2022-07-08T20:03:42 IST" duration-ms="2017" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method test.TestListenres.testTwo() didn't finish within the time-out 2000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method test.TestListenres.testTwo() didn't finish within the time-out 2000
+at java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+at app//test.TestListenres.testTwo(TestListenres.java:25)
+at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@17.0.2/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base@17.0.2/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@17.0.2/java.lang.reflect.Method.invoke(Method.java:568)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:44)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:72)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:10)
+at java.base@17.0.2/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- test.TestListenres -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
